@@ -69,7 +69,7 @@ Inicie o servidor em modo de desenvolvimento com hot-reload:
 npm run dev
 ```
 
-O servidor estará disponível em `http://localhost:3000`
+O servidor estará disponível em `http://localhost:3333`
 
 ### Documentação da API
 
@@ -188,7 +188,7 @@ Este projeto está sob a licença ISC. Veja o arquivo [LICENSE](LICENSE) para ma
 
 ## 👤 Autor
 
-Desenvolvido como um desafio de aprendizado em Node.js com Fastify e TypeScript.
+Desenvolvido como um desafio de aprendizado em Node.js com Fastify e TypeScript por Deivisson Gonçalves.
 
 ## 📞 Suporte
 
