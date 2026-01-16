@@ -14,6 +14,7 @@ if (process.env.NODE_ENV === 'test') {
 const envSchema = z.object({
   // definindo o formato esperado para cada variavel de ambiente
   NODE_ENV: z.enum(['development', 'production', 'test']).default('production'),
+  // DATABASE_CLIENT deve ser 'sqlite' ou 'pg'
   DATABASE_CLIENT: z.enum(['sqlite', 'pg']),
   // DATABASE_URL é uma string obrigatória
   DATABASE_URL: z.string(),
